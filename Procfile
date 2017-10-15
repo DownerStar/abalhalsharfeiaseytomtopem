@@ -1,1 +1,1 @@
-worker: node Cryo.js
+worker: node cryo.js
