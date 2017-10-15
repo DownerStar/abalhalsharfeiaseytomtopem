@@ -4,12 +4,12 @@
   "description": "cool bot",
   "main": "Cryo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node Cryo.js"
   },
   "author": "DownerStar, Kineh",
   "license": "ISC",
   "dependencies": {
-    "eris": "0.8.0",
+    "eris": "0.8.0"
  } 
 }
