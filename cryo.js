@@ -87,7 +87,7 @@ let comandos = {
 						 },
 						 {
 							 name:'Meus prefixos:',
-							 value: 'Prefixo normal: *Cry!* \n Prefixo adicional: *Hotel?* \n Prefixo para RPG: *$*'
+							 value: 'Prefixo normal: *Cry!help* \n Prefixo adicional: *Hotel?help* \n Prefixo para RPG: *$help*'
 						 },
 						 {
 							 name: 'Número de servers :computer:  ',
@@ -124,8 +124,8 @@ let comandos = {
 							 value: 'eu fui originalmente criado pelo <@266947496243101697>, que me tratou bem e cuidou de mim, toda semana me deixando hibernar!'
 						 },
 						 {
-							 name: 'Atualmente eu uso a host Heroku! [Clique aqui para visitar o site!](https://dashboard.heroku.com)',
-							 value: 'se quiser meu link de invite, use Cry!invite ou [Clique Aqui!](https://discordapp.com/oauth2/authorize?client_id=361596190279598090&scope=bot&permissions=268561430 )'
+							 name: 'Atualmente eu uso a host Heroku!',
+							 value: 'Eu gosto muito dessa host! :smile: [Clique aqui para visitar o site!](https://dashboard.heroku.com)  \n \n se quiser meu link de invite, use Cry!invite ou [Clique Aqui!](https://discordapp.com/oauth2/authorize?client_id=361596190279598090&scope=bot&permissions=268561430 )'
 						 },
 						 {
 							 name: 'o enbede tem um canal do youtube tambem.',
