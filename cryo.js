@@ -124,7 +124,7 @@ let comandos = {
 							 value: 'eu fui originalmente criado pelo <@266947496243101697>, que me tratou bem e cuidou de mim, toda semana me deixando hibernar!'
 						 },
 						 {
-							 name: 'Atualmente não tenho nenhuma host, mas em breve eu vou ter!',
+							 name: 'Atualmente eu uso a host Heroku! [Clique aqui para visitar o site!](https://dashboard.heroku.com)',
 							 value: 'se quiser meu link de invite, use Cry!invite ou [Clique Aqui!](https://discordapp.com/oauth2/authorize?client_id=361596190279598090&scope=bot&permissions=268561430 )'
 						 },
 						 {
