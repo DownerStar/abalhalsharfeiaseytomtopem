@@ -523,14 +523,21 @@ ${final.join(' + ')}${soma ? ' +' + soma : ''} = ${final.reduce((ant, curr) => a
 };
 	
 bot.on('messageCreate', (msg) => {
-	for (let i in comandos) {
-		let nome   = msg.content.replace(i, '').split(/ |\n/)[0],
-			suffix = msg.content.replace(i + nome, '').trim();
-		if (msg.content.startsWith(i) && comandos[i][nome]) {
-			comandos[i][nome].exec(msg, suffix);
-			console.log('O %s usou o comando %s', msg.author.username, nome);
-		}
-	}
+ if(msg.channel.id = '372073779339198474') {
+msg.addReaction('👍🏻'),
+msg.addReaction('👎🏻'),
+msg.addReaction('❤')
+return 
+}
+
+    for (let i in comandos) {
+        let nome   = msg.content.replace(i, '').split(/ |\n/)[0],
+            suffix = msg.content.replace(i + nome, '').trim();
+        if (msg.content.startsWith(i) && comandos[i][nome]) {
+            comandos[i][nome].exec(msg, suffix);
+            console.log('O %s usou o comando %s', msg.author.username, nome);
+        }
+    }
 });
 
 bot.connect(process.env.BOT_TOKEN);
